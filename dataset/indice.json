@@ -1,0 +1,182 @@
+[
+  {
+    "codice": "kid_01",
+    "impaginazione": "tabellare",
+    "tipo": "fondo",
+    "nome": "Lagunare Azionario Europa – Classe C"
+  },
+  {
+    "codice": "kid_02",
+    "impaginazione": "discorsivo",
+    "tipo": "fondo",
+    "nome": "Lagunare Azionario Paesi Emergenti – Classe R"
+  },
+  {
+    "codice": "kid_03",
+    "impaginazione": "grafico",
+    "tipo": "fondo",
+    "nome": "Aurora Obbligazionario Euro Breve Termine – Classe C"
+  },
+  {
+    "codice": "kid_04",
+    "impaginazione": "tabellare",
+    "tipo": "etf",
+    "nome": "Polaris MSCI World UCITS ETF (Dist)"
+  },
+  {
+    "codice": "kid_05",
+    "impaginazione": "discorsivo",
+    "tipo": "etf",
+    "nome": "Polaris Euro Government Bond 1-3 UCITS ETF (Acc)"
+  },
+  {
+    "codice": "kid_06",
+    "impaginazione": "grafico",
+    "tipo": "etf",
+    "nome": "Aurora MSCI World UCITS ETF (Dist)"
+  },
+  {
+    "codice": "kid_07",
+    "impaginazione": "tabellare",
+    "tipo": "certificato",
+    "nome": "Cash Collect Memory su Euro Stoxx 50 – scadenza 06/11/2029"
+  },
+  {
+    "codice": "kid_08",
+    "impaginazione": "discorsivo",
+    "tipo": "certificato",
+    "nome": "Phoenix Memory Worst Of su Enel, Eni, Intesa Sanpaolo – scadenza 20/11/2031"
+  },
+  {
+    "codice": "kid_09",
+    "impaginazione": "grafico",
+    "tipo": "fondo",
+    "nome": "Lagunare Monetario Euro – Classe R"
+  },
+  {
+    "codice": "kid_10",
+    "impaginazione": "tabellare",
+    "tipo": "fondo",
+    "nome": "Meridiana Azionario Tecnologia – Classe R"
+  },
+  {
+    "codice": "kid_11",
+    "impaginazione": "discorsivo",
+    "tipo": "fondo",
+    "nome": "Aurora Flessibile Multi Asset – Classe R"
+  },
+  {
+    "codice": "kid_12",
+    "impaginazione": "grafico",
+    "tipo": "fondo",
+    "nome": "Lagunare Azionario Europa – Classe C"
+  },
+  {
+    "codice": "kid_13",
+    "impaginazione": "tabellare",
+    "tipo": "etf",
+    "nome": "Polaris S&P 500 UCITS ETF (Dist)"
+  },
+  {
+    "codice": "kid_14",
+    "impaginazione": "discorsivo",
+    "tipo": "etf",
+    "nome": "Aurora MSCI Emerging Markets UCITS ETF (Acc)"
+  },
+  {
+    "codice": "kid_15",
+    "impaginazione": "grafico",
+    "tipo": "etf",
+    "nome": "Polaris Global Aggregate Bond EUR Hedged UCITS ETF (Dist)"
+  },
+  {
+    "codice": "kid_16",
+    "impaginazione": "tabellare",
+    "tipo": "certificato",
+    "nome": "Cash Collect Autocallable su Stellantis – scadenza 13/11/2030"
+  },
+  {
+    "codice": "kid_17",
+    "impaginazione": "discorsivo",
+    "tipo": "certificato",
+    "nome": "Equity Protection 95% su Euro Stoxx 50 – scadenza 13/11/2030"
+  },
+  {
+    "codice": "kid_18",
+    "impaginazione": "grafico",
+    "tipo": "certificato",
+    "nome": "Bonus Cap su FTSE MIB – scadenza 20/11/2031"
+  },
+  {
+    "codice": "kid_19",
+    "impaginazione": "tabellare",
+    "tipo": "fondo",
+    "nome": "Lagunare Azionario Europa – Classe C"
+  },
+  {
+    "codice": "kid_20",
+    "impaginazione": "discorsivo",
+    "tipo": "fondo",
+    "nome": "Meridiana Azionario Tecnologia – Classe A"
+  },
+  {
+    "codice": "kid_21",
+    "impaginazione": "grafico",
+    "tipo": "fondo",
+    "nome": "Lagunare Azionario Europa – Classe A"
+  },
+  {
+    "codice": "kid_22",
+    "impaginazione": "tabellare",
+    "tipo": "etf",
+    "nome": "Polaris MSCI Europe Small Cap UCITS ETF (Dist)"
+  },
+  {
+    "codice": "kid_23",
+    "impaginazione": "discorsivo",
+    "tipo": "etf",
+    "nome": "Aurora S&P 500 UCITS ETF (Dist)"
+  },
+  {
+    "codice": "kid_24",
+    "impaginazione": "grafico",
+    "tipo": "etf",
+    "nome": "Aurora MSCI World UCITS ETF (Dist)"
+  },
+  {
+    "codice": "kid_25",
+    "impaginazione": "tabellare",
+    "tipo": "certificato",
+    "nome": "Phoenix Memory Worst Of su Enel, Eni, Intesa Sanpaolo – scadenza 06/11/2030"
+  },
+  {
+    "codice": "kid_26",
+    "impaginazione": "discorsivo",
+    "tipo": "certificato",
+    "nome": "Bonus Cap su FTSE MIB – scadenza 13/11/2031"
+  },
+  {
+    "codice": "kid_27",
+    "impaginazione": "grafico",
+    "tipo": "certificato",
+    "nome": "Bonus Cap su FTSE MIB – scadenza 06/11/2028"
+  },
+  {
+    "codice": "kid_28",
+    "impaginazione": "tabellare",
+    "tipo": "fondo",
+    "nome": "Lagunare Obbligazionario Globale Aggregate – Classe C"
+  },
+  {
+    "codice": "kid_29",
+    "impaginazione": "discorsivo",
+    "tipo": "etf",
+    "nome": "Aurora S&P 500 UCITS ETF (Dist)"
+  },
+  {
+    "codice": "kid_30",
+    "impaginazione": "grafico",
+    "tipo": "fondo",
+    "nome": "Aurora Azionario Europa – Classe A"
+  }
+]

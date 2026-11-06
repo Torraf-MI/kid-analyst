@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Lagunare Azionario Europa – Classe C",
+  "isin": "IT9490668827",
+  "ideatore": "Lagunare Gestioni SGR S.p.A.",
+  "tipo": "fondo",
+  "sri": 5,
+  "periodo_detenzione_anni": 6.0,
+  "costi": {
+    "ingresso_pct": 0.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 1.34,
+    "transazione_pct": 0.06,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 1.4
+  },
+  "scenari": {
+    "stress_pct": -13.72,
+    "sfavorevole_pct": -2.78,
+    "moderato_pct": 4.07,
+    "favorevole_pct": 11.59
+  }
+}

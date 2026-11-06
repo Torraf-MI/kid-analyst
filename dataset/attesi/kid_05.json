@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Polaris Euro Government Bond 1-3 UCITS ETF (Acc)",
+  "isin": "IE8768045715",
+  "ideatore": "Polaris Index Funds plc",
+  "tipo": "etf",
+  "sri": 2,
+  "periodo_detenzione_anni": 3.0,
+  "costi": {
+    "ingresso_pct": 0.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.31,
+    "transazione_pct": 0.05,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.36
+  },
+  "scenari": {
+    "stress_pct": -6.18,
+    "sfavorevole_pct": -1.03,
+    "moderato_pct": 2.19,
+    "favorevole_pct": 5.73
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Polaris MSCI Europe Small Cap UCITS ETF (Dist)",
+  "isin": "IE1744325681",
+  "ideatore": "Polaris Index Funds plc",
+  "tipo": "etf",
+  "sri": 5,
+  "periodo_detenzione_anni": 6.0,
+  "costi": {
+    "ingresso_pct": 0.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.41,
+    "transazione_pct": 0.01,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.42
+  },
+  "scenari": {
+    "stress_pct": -12.47,
+    "sfavorevole_pct": -1.41,
+    "moderato_pct": 5.5,
+    "favorevole_pct": 13.11
+  }
+}

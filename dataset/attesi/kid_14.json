@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Aurora MSCI Emerging Markets UCITS ETF (Acc)",
+  "isin": "IE4645060456",
+  "ideatore": "Aurora ETF ICAV",
+  "tipo": "etf",
+  "sri": 5,
+  "periodo_detenzione_anni": 6.0,
+  "costi": {
+    "ingresso_pct": 0.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.18,
+    "transazione_pct": 0.02,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.2
+  },
+  "scenari": {
+    "stress_pct": -12.63,
+    "sfavorevole_pct": -1.38,
+    "moderato_pct": 5.66,
+    "favorevole_pct": 13.39
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "classe": 4,
+  "nome": "Dinamico",
+  "componenti": {
+    "Tolleranza al rischio": 4,
+    "Capacità di sostenere perdite": 5,
+    "Orizzonte temporale": 4,
+    "Obiettivo di investimento": 4
+  },
+  "vincolo": "Tolleranza al rischio",
+  "tolleranza_punteggio": 60.0,
+  "capacita_perdita": 0.472,
+  "orizzonte_anni": 8,
+  "obiettivo": "crescita_moderata",
+  "quota_liquida": 0.05,
+  "conoscenza": {
+    "liquidita": 3,
+    "obbligazioni": 3,
+    "fondi_etf": 3,
+    "azioni": 3,
+    "certificati": 3,
+    "derivati": 0
+  },
+  "quiz_corrette": 3,
+  "classi_ammesse": [
+    "liquidita",
+    "obbligazioni",
+    "fondi_etf",
+    "azioni",
+    "certificati"
+  ],
+  "sostenibilita": {
+    "ha_preferenze": false,
+    "quota_minima_sostenibile": 0.0,
+    "quota_minima_tassonomia": 0.0,
+    "considera_pai": false
+  },
+  "incoerenze": [],
+  "limiti": {
+    "livello": 4,
+    "nome": "Dinamico",
+    "volatilita_max": 0.16,
+    "perdita_max": 0.27,
+    "sri_max": 5,
+    "costo_max": 0.014
+  },
+  "cliente": "Giorgio Esempio"
+}

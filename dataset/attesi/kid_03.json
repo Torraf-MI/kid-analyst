@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Aurora Obbligazionario Euro Breve Termine – Classe C",
+  "isin": "LU0932081960",
+  "ideatore": "Aurora Asset Management S.A.",
+  "tipo": "fondo",
+  "sri": 2,
+  "periodo_detenzione_anni": 4.0,
+  "costi": {
+    "ingresso_pct": 2.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.88,
+    "transazione_pct": 0.09,
+    "performance_pct": 0.29,
+    "incidenza_annua_pct": 1.76
+  },
+  "scenari": {
+    "stress_pct": -7.65,
+    "sfavorevole_pct": -2.5,
+    "moderato_pct": 0.72,
+    "favorevole_pct": 4.26
+  }
+}

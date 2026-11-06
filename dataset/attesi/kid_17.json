@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Equity Protection 95% su Euro Stoxx 50 – scadenza 13/11/2030",
+  "isin": "IT4585003709",
+  "ideatore": "Banca Levante S.p.A.",
+  "tipo": "certificato",
+  "sri": 3,
+  "periodo_detenzione_anni": 4.0,
+  "costi": {
+    "ingresso_pct": 1.27,
+    "uscita_pct": 0.5,
+    "gestione_pct": 0.0,
+    "transazione_pct": 0.0,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.44
+  },
+  "scenari": {
+    "stress_pct": -8.74,
+    "sfavorevole_pct": -1.35,
+    "moderato_pct": 3.27,
+    "favorevole_pct": 8.36
+  }
+}

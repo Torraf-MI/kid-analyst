@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Aurora Flessibile Multi Asset – Classe R",
+  "isin": "LU1756820525",
+  "ideatore": "Aurora Asset Management S.A.",
+  "tipo": "fondo",
+  "sri": 4,
+  "periodo_detenzione_anni": 5.0,
+  "costi": {
+    "ingresso_pct": 1.5,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.96,
+    "transazione_pct": 0.12,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 1.38
+  },
+  "scenari": {
+    "stress_pct": -10.9,
+    "sfavorevole_pct": -2.07,
+    "moderato_pct": 3.45,
+    "favorevole_pct": 9.52
+  }
+}

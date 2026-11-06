@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Aurora Azionario Europa – Classe A",
+  "isin": "LU8283472852",
+  "ideatore": "Aurora Asset Management S.A.",
+  "tipo": "fondo",
+  "sri": 5,
+  "periodo_detenzione_anni": 5.0,
+  "costi": {
+    "ingresso_pct": 2.5,
+    "uscita_pct": 0.0,
+    "gestione_pct": 1.66,
+    "transazione_pct": 0.09,
+    "performance_pct": 0.13,
+    "incidenza_annua_pct": 2.38
+  },
+  "scenari": {
+    "stress_pct": -14.5,
+    "sfavorevole_pct": -3.31,
+    "moderato_pct": 3.68,
+    "favorevole_pct": 11.37
+  }
+}

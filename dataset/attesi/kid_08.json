@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Phoenix Memory Worst Of su Enel, Eni, Intesa Sanpaolo – scadenza 20/11/2031",
+  "isin": "DE3601610556",
+  "ideatore": "Borealis Bank AG",
+  "tipo": "certificato",
+  "sri": 6,
+  "periodo_detenzione_anni": 5.0,
+  "costi": {
+    "ingresso_pct": 1.33,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.0,
+    "transazione_pct": 0.0,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.27
+  },
+  "scenari": {
+    "stress_pct": -13.87,
+    "sfavorevole_pct": -0.86,
+    "moderato_pct": 7.27,
+    "favorevole_pct": 16.22
+  }
+}

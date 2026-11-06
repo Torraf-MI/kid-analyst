@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Meridiana Azionario Tecnologia – Classe A",
+  "isin": "IT0976582806",
+  "ideatore": "Meridiana Investimenti SGR S.p.A.",
+  "tipo": "fondo",
+  "sri": 6,
+  "periodo_detenzione_anni": 6.0,
+  "costi": {
+    "ingresso_pct": 3.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 1.11,
+    "transazione_pct": 0.28,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 1.89
+  },
+  "scenari": {
+    "stress_pct": -14.94,
+    "sfavorevole_pct": -2.73,
+    "moderato_pct": 4.9,
+    "favorevole_pct": 13.3
+  }
+}

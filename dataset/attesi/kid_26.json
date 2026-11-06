@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Bonus Cap su FTSE MIB – scadenza 13/11/2031",
+  "isin": "IT0378495185",
+  "ideatore": "Banca Levante S.p.A.",
+  "tipo": "certificato",
+  "sri": 5,
+  "periodo_detenzione_anni": 5.0,
+  "costi": {
+    "ingresso_pct": 3.2,
+    "uscita_pct": 0.25,
+    "gestione_pct": 0.0,
+    "transazione_pct": 0.0,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.69
+  },
+  "scenari": {
+    "stress_pct": -11.31,
+    "sfavorevole_pct": -1.26,
+    "moderato_pct": 5.02,
+    "favorevole_pct": 11.92
+  }
+}

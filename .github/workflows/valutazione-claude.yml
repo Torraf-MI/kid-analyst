@@ -1,0 +1,65 @@
+# Valutazione degli estrattori con Claude, avviata a mano da Actions → "Valutazione con Claude" → Run workflow.
+# Richiede il secret del repository ANTHROPIC_API_KEY. Il budget è un tetto rigido: ogni chiamata viene stimata
+# prima di partire e rifiutata se potrebbe superarlo.
+name: Valutazione con Claude
+
+on:
+  workflow_dispatch:
+    inputs:
+      motori:
+        description: Estrattori da valutare (modello:modalità:effort, separati da virgole)
+        default: regole,claude-haiku-5-5:testo:low,claude-haiku-5-5:pdf:low,claude-opus-5-5:pdf:low
+      budget:
+        description: Spesa massima in dollari
+        default: "5"
+      pubblica:
+        description: Salva i risultati nel repository (cartella risultati/)
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  valuta:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Controllo del secret
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::Aggiungi il secret ANTHROPIC_API_KEY in Settings → Secrets and variables → Actions"
+            exit 1
+          fi
+      - run: pip install -e .
+      - name: Valutazione
+        env:
+          MOTORI: ${{ inputs.motori }}
+          BUDGET: ${{ inputs.budget }}
+        run: |
+          kid-analyst valuta --motori "$MOTORI" --budget "$BUDGET" --senza-cache 2> log.txt
+          cat log.txt
+          {
+            echo "## Accuratezza di estrazione su 30 KID"
+            cat risultati/valutazione.md
+            echo
+            echo "Spesa: \`$(tail -n 1 log.txt)\`"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: risultati
+          path: risultati/
+      - name: Salva i risultati
+        if: inputs.pubblica
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add risultati/
+          git diff --cached --quiet || git commit -m "Risultati della valutazione con Claude"
+          git push

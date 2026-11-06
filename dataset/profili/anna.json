@@ -1,0 +1,47 @@
+{
+  "classe": 4,
+  "nome": "Dinamico",
+  "componenti": {
+    "Tolleranza al rischio": 4,
+    "Capacità di sostenere perdite": 5,
+    "Orizzonte temporale": 5,
+    "Obiettivo di investimento": 5
+  },
+  "vincolo": "Tolleranza al rischio",
+  "tolleranza_punteggio": 65.0,
+  "capacita_perdita": 0.473,
+  "orizzonte_anni": 15,
+  "obiettivo": "crescita",
+  "quota_liquida": 0.0,
+  "conoscenza": {
+    "liquidita": 3,
+    "obbligazioni": 2,
+    "fondi_etf": 2,
+    "azioni": 2,
+    "certificati": 0,
+    "derivati": 0
+  },
+  "quiz_corrette": 2,
+  "classi_ammesse": [
+    "liquidita",
+    "obbligazioni",
+    "fondi_etf",
+    "azioni"
+  ],
+  "sostenibilita": {
+    "ha_preferenze": true,
+    "quota_minima_sostenibile": 0.3,
+    "quota_minima_tassonomia": 0.05,
+    "considera_pai": true
+  },
+  "incoerenze": [],
+  "limiti": {
+    "livello": 4,
+    "nome": "Dinamico",
+    "volatilita_max": 0.16,
+    "perdita_max": 0.27,
+    "sri_max": 5,
+    "costo_max": 0.014
+  },
+  "cliente": "Anna Esempio"
+}

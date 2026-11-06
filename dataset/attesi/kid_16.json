@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Cash Collect Autocallable su Stellantis – scadenza 13/11/2030",
+  "isin": "DE8864230042",
+  "ideatore": "Borealis Bank AG",
+  "tipo": "certificato",
+  "sri": 6,
+  "periodo_detenzione_anni": 4.0,
+  "costi": {
+    "ingresso_pct": 1.94,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.0,
+    "transazione_pct": 0.0,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.48
+  },
+  "scenari": {
+    "stress_pct": -13.57,
+    "sfavorevole_pct": -0.88,
+    "moderato_pct": 7.05,
+    "favorevole_pct": 15.78
+  }
+}

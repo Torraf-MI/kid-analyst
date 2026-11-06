@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Lagunare Obbligazionario Globale Aggregate – Classe C",
+  "isin": "IT7207547359",
+  "ideatore": "Lagunare Gestioni SGR S.p.A.",
+  "tipo": "fondo",
+  "sri": 3,
+  "periodo_detenzione_anni": 5.0,
+  "costi": {
+    "ingresso_pct": 1.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 1.24,
+    "transazione_pct": 0.22,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 1.66
+  },
+  "scenari": {
+    "stress_pct": -9.18,
+    "sfavorevole_pct": -2.45,
+    "moderato_pct": 1.75,
+    "favorevole_pct": 6.38
+  }
+}

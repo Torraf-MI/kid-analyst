@@ -1,0 +1,596 @@
+{
+  "sintesi": {
+    "estrattore": "regole",
+    "documenti": 30,
+    "accuratezza_campi": 0.8958,
+    "documenti_perfetti": 0.6667,
+    "per_impaginazione": {
+      "discorsivo": 1.0,
+      "grafico": 0.6875,
+      "tabellare": 1.0
+    },
+    "per_campo": {
+      "nome_prodotto": 1.0,
+      "isin": 1.0,
+      "ideatore": 1.0,
+      "tipo": 1.0,
+      "sri": 0.6667,
+      "periodo_detenzione_anni": 1.0,
+      "costi.ingresso_pct": 1.0,
+      "costi.uscita_pct": 1.0,
+      "costi.gestione_pct": 1.0,
+      "costi.transazione_pct": 1.0,
+      "costi.performance_pct": 1.0,
+      "costi.incidenza_annua_pct": 1.0,
+      "scenari.stress_pct": 0.6667,
+      "scenari.sfavorevole_pct": 0.6667,
+      "scenari.moderato_pct": 0.6667,
+      "scenari.favorevole_pct": 0.6667
+    },
+    "costo_usd": 0.0,
+    "costo_medio_usd": 0.0,
+    "secondi_medi": 0.0
+  },
+  "documenti": [
+    {
+      "codice": "kid_01",
+      "impaginazione": "tabellare",
+      "tipo": "fondo",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.002,
+      "errore": null
+    },
+    {
+      "codice": "kid_02",
+      "impaginazione": "discorsivo",
+      "tipo": "fondo",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.001,
+      "errore": null
+    },
+    {
+      "codice": "kid_03",
+      "impaginazione": "grafico",
+      "tipo": "fondo",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 2,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -7.65,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -2.5,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": 0.72,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 4.26,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.001,
+      "errore": null
+    },
+    {
+      "codice": "kid_04",
+      "impaginazione": "tabellare",
+      "tipo": "etf",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_05",
+      "impaginazione": "discorsivo",
+      "tipo": "etf",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_06",
+      "impaginazione": "grafico",
+      "tipo": "etf",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 4,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -9.14,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -0.9,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": 4.25,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 9.92,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.001,
+      "errore": null
+    },
+    {
+      "codice": "kid_07",
+      "impaginazione": "tabellare",
+      "tipo": "certificato",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_08",
+      "impaginazione": "discorsivo",
+      "tipo": "certificato",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_09",
+      "impaginazione": "grafico",
+      "tipo": "fondo",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 1,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -6.43,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -2.76,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": -0.46,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 2.06,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_10",
+      "impaginazione": "tabellare",
+      "tipo": "fondo",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_11",
+      "impaginazione": "discorsivo",
+      "tipo": "fondo",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_12",
+      "impaginazione": "grafico",
+      "tipo": "fondo",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 5,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -12.81,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -2.09,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": 4.61,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 11.98,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_13",
+      "impaginazione": "tabellare",
+      "tipo": "etf",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_14",
+      "impaginazione": "discorsivo",
+      "tipo": "etf",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_15",
+      "impaginazione": "grafico",
+      "tipo": "etf",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 3,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -7.59,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -0.83,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": 3.39,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 8.04,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.001,
+      "errore": null
+    },
+    {
+      "codice": "kid_16",
+      "impaginazione": "tabellare",
+      "tipo": "certificato",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_17",
+      "impaginazione": "discorsivo",
+      "tipo": "certificato",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_18",
+      "impaginazione": "grafico",
+      "tipo": "certificato",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 5,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -11.56,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -1.21,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": 5.26,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 12.38,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_19",
+      "impaginazione": "tabellare",
+      "tipo": "fondo",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_20",
+      "impaginazione": "discorsivo",
+      "tipo": "fondo",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.001,
+      "errore": null
+    },
+    {
+      "codice": "kid_21",
+      "impaginazione": "grafico",
+      "tipo": "fondo",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 5,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -11.98,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -1.9,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": 4.4,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 11.33,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.001,
+      "errore": null
+    },
+    {
+      "codice": "kid_22",
+      "impaginazione": "tabellare",
+      "tipo": "etf",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_23",
+      "impaginazione": "discorsivo",
+      "tipo": "etf",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_24",
+      "impaginazione": "grafico",
+      "tipo": "etf",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 4,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -9.09,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -0.74,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": 4.47,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 10.21,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_25",
+      "impaginazione": "tabellare",
+      "tipo": "certificato",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_26",
+      "impaginazione": "discorsivo",
+      "tipo": "certificato",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_27",
+      "impaginazione": "grafico",
+      "tipo": "certificato",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 5,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -11.15,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -0.88,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": 5.53,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 12.59,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_28",
+      "impaginazione": "tabellare",
+      "tipo": "fondo",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_29",
+      "impaginazione": "discorsivo",
+      "tipo": "etf",
+      "campi_corretti": 16,
+      "errori": [],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    },
+    {
+      "codice": "kid_30",
+      "impaginazione": "grafico",
+      "tipo": "fondo",
+      "campi_corretti": 11,
+      "errori": [
+        {
+          "campo": "sri",
+          "atteso": 5,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.stress_pct",
+          "atteso": -14.5,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.sfavorevole_pct",
+          "atteso": -3.31,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.moderato_pct",
+          "atteso": 3.68,
+          "trovato": null
+        },
+        {
+          "campo": "scenari.favorevole_pct",
+          "atteso": 11.37,
+          "trovato": null
+        }
+      ],
+      "costo_usd": 0.0,
+      "secondi": 0.0,
+      "errore": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Cash Collect Memory su Euro Stoxx 50 – scadenza 06/11/2029",
+  "isin": "DE7283792988",
+  "ideatore": "Borealis Bank AG",
+  "tipo": "certificato",
+  "sri": 4,
+  "periodo_detenzione_anni": 3.0,
+  "costi": {
+    "ingresso_pct": 2.58,
+    "uscita_pct": 0.5,
+    "gestione_pct": 0.0,
+    "transazione_pct": 0.0,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 1.03
+  },
+  "scenari": {
+    "stress_pct": -10.33,
+    "sfavorevole_pct": -1.32,
+    "moderato_pct": 4.32,
+    "favorevole_pct": 10.52
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Bonus Cap su FTSE MIB – scadenza 20/11/2031",
+  "isin": "DE7943262703",
+  "ideatore": "Borealis Bank AG",
+  "tipo": "certificato",
+  "sri": 5,
+  "periodo_detenzione_anni": 5.0,
+  "costi": {
+    "ingresso_pct": 3.54,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.0,
+    "transazione_pct": 0.0,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.71
+  },
+  "scenari": {
+    "stress_pct": -11.56,
+    "sfavorevole_pct": -1.21,
+    "moderato_pct": 5.26,
+    "favorevole_pct": 12.38
+  }
+}

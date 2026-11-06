@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Aurora S&P 500 UCITS ETF (Dist)",
+  "isin": "IE5696327926",
+  "ideatore": "Aurora ETF ICAV",
+  "tipo": "etf",
+  "sri": 5,
+  "periodo_detenzione_anni": 7.0,
+  "costi": {
+    "ingresso_pct": 0.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.31,
+    "transazione_pct": 0.04,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.35
+  },
+  "scenari": {
+    "stress_pct": -11.33,
+    "sfavorevole_pct": -1.08,
+    "moderato_pct": 5.33,
+    "favorevole_pct": 12.37
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Polaris MSCI World UCITS ETF (Dist)",
+  "isin": "IE6488766347",
+  "ideatore": "Polaris Index Funds plc",
+  "tipo": "etf",
+  "sri": 4,
+  "periodo_detenzione_anni": 5.0,
+  "costi": {
+    "ingresso_pct": 0.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.39,
+    "transazione_pct": 0.01,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.4
+  },
+  "scenari": {
+    "stress_pct": -10.02,
+    "sfavorevole_pct": -1.0,
+    "moderato_pct": 4.64,
+    "favorevole_pct": 10.84
+  }
+}

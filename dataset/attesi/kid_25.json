@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Phoenix Memory Worst Of su Enel, Eni, Intesa Sanpaolo – scadenza 06/11/2030",
+  "isin": "IT5506204847",
+  "ideatore": "Banca Levante S.p.A.",
+  "tipo": "certificato",
+  "sri": 6,
+  "periodo_detenzione_anni": 4.0,
+  "costi": {
+    "ingresso_pct": 2.73,
+    "uscita_pct": 0.25,
+    "gestione_pct": 0.0,
+    "transazione_pct": 0.0,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.74
+  },
+  "scenari": {
+    "stress_pct": -14.05,
+    "sfavorevole_pct": -1.13,
+    "moderato_pct": 6.95,
+    "favorevole_pct": 15.84
+  }
+}

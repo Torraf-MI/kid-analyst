@@ -1,0 +1,47 @@
+{
+  "classe": 2,
+  "nome": "Moderato",
+  "componenti": {
+    "Tolleranza al rischio": 2,
+    "Capacità di sostenere perdite": 4,
+    "Orizzonte temporale": 2,
+    "Obiettivo di investimento": 2
+  },
+  "vincolo": "Tolleranza al rischio",
+  "tolleranza_punteggio": 25.0,
+  "capacita_perdita": 0.311,
+  "orizzonte_anni": 4,
+  "obiettivo": "protezione",
+  "quota_liquida": 0.2,
+  "conoscenza": {
+    "liquidita": 3,
+    "obbligazioni": 2,
+    "fondi_etf": 0,
+    "azioni": 0,
+    "certificati": 1,
+    "derivati": 0
+  },
+  "quiz_corrette": 1,
+  "classi_ammesse": [
+    "liquidita",
+    "obbligazioni"
+  ],
+  "sostenibilita": {
+    "ha_preferenze": false,
+    "quota_minima_sostenibile": 0.0,
+    "quota_minima_tassonomia": 0.0,
+    "considera_pai": false
+  },
+  "incoerenze": [
+    "Dichiara di conoscere i certificati ma sbaglia la domanda sulla barriera: i certificati non possono essere raccomandati finché la conoscenza non è verificata."
+  ],
+  "limiti": {
+    "livello": 2,
+    "nome": "Moderato",
+    "volatilita_max": 0.07,
+    "perdita_max": 0.1,
+    "sri_max": 3,
+    "costo_max": 0.01
+  },
+  "cliente": "Lucia Esempio"
+}

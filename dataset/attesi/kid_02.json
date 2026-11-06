@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Lagunare Azionario Paesi Emergenti – Classe R",
+  "isin": "IT7294055761",
+  "ideatore": "Lagunare Gestioni SGR S.p.A.",
+  "tipo": "fondo",
+  "sri": 6,
+  "periodo_detenzione_anni": 6.0,
+  "costi": {
+    "ingresso_pct": 2.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.88,
+    "transazione_pct": 0.47,
+    "performance_pct": 0.33,
+    "incidenza_annua_pct": 2.01
+  },
+  "scenari": {
+    "stress_pct": -14.52,
+    "sfavorevole_pct": -2.02,
+    "moderato_pct": 5.79,
+    "favorevole_pct": 14.38
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Aurora MSCI World UCITS ETF (Dist)",
+  "isin": "IE1449766080",
+  "ideatore": "Aurora ETF ICAV",
+  "tipo": "etf",
+  "sri": 4,
+  "periodo_detenzione_anni": 5.0,
+  "costi": {
+    "ingresso_pct": 0.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.18,
+    "transazione_pct": 0.08,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.26
+  },
+  "scenari": {
+    "stress_pct": -9.09,
+    "sfavorevole_pct": -0.74,
+    "moderato_pct": 4.47,
+    "favorevole_pct": 10.21
+  }
+}

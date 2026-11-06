@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Polaris Global Aggregate Bond EUR Hedged UCITS ETF (Dist)",
+  "isin": "IE1028594069",
+  "ideatore": "Polaris Index Funds plc",
+  "tipo": "etf",
+  "sri": 3,
+  "periodo_detenzione_anni": 6.0,
+  "costi": {
+    "ingresso_pct": 0.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.18,
+    "transazione_pct": 0.08,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.26
+  },
+  "scenari": {
+    "stress_pct": -7.59,
+    "sfavorevole_pct": -0.83,
+    "moderato_pct": 3.39,
+    "favorevole_pct": 8.04
+  }
+}

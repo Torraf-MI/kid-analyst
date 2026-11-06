@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Lagunare Monetario Euro – Classe R",
+  "isin": "IT9318603204",
+  "ideatore": "Lagunare Gestioni SGR S.p.A.",
+  "tipo": "fondo",
+  "sri": 1,
+  "periodo_detenzione_anni": 2.0,
+  "costi": {
+    "ingresso_pct": 3.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.51,
+    "transazione_pct": 0.05,
+    "performance_pct": 0.09,
+    "incidenza_annua_pct": 2.15
+  },
+  "scenari": {
+    "stress_pct": -6.43,
+    "sfavorevole_pct": -2.76,
+    "moderato_pct": -0.46,
+    "favorevole_pct": 2.06
+  }
+}

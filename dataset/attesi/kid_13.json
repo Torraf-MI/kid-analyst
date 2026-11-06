@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Polaris S&P 500 UCITS ETF (Dist)",
+  "isin": "IE3041189554",
+  "ideatore": "Polaris Index Funds plc",
+  "tipo": "etf",
+  "sri": 5,
+  "periodo_detenzione_anni": 6.0,
+  "costi": {
+    "ingresso_pct": 0.0,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.11,
+    "transazione_pct": 0.02,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.13
+  },
+  "scenari": {
+    "stress_pct": -12.87,
+    "sfavorevole_pct": -1.76,
+    "moderato_pct": 5.19,
+    "favorevole_pct": 12.82
+  }
+}

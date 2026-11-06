@@ -1,0 +1,22 @@
+{
+  "nome_prodotto": "Bonus Cap su FTSE MIB – scadenza 06/11/2028",
+  "isin": "DE8982104608",
+  "ideatore": "Borealis Bank AG",
+  "tipo": "certificato",
+  "sri": 5,
+  "periodo_detenzione_anni": 2.0,
+  "costi": {
+    "ingresso_pct": 1.79,
+    "uscita_pct": 0.0,
+    "gestione_pct": 0.0,
+    "transazione_pct": 0.0,
+    "performance_pct": 0.0,
+    "incidenza_annua_pct": 0.9
+  },
+  "scenari": {
+    "stress_pct": -11.15,
+    "sfavorevole_pct": -0.88,
+    "moderato_pct": 5.53,
+    "favorevole_pct": 12.59
+  }
+}
